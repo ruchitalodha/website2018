@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=VT323|Amatic+SC|Montserrat|Nunito|Sacramento|Bonbon|Montserrat|Great+Vibes|Gloria+Hallelujah|Raleway');
+
+:root{
+    --text:Nunito;
+    --text:Pacifico;
+    --text:Amatic SC;
+    --text:Montserrat;
+    --text:VT323;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.block{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+#left-block{
+    -webkit-clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+    clip-path: polygon(0 0, 0 100vh, 100% 100vh);
+    background: #ffeaea;
+    color: black;
+}
+
+#right-block{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh);
+    clip-path: polygon(0 0, 100% 0, 100% 100vh);
+    background: black;
+    color: white;
+    text-align: right;
+}
+
+.link{
+	text-decoration: none;
+	color: #33e0ffbf;
+}
+
+.text{
+	padding-right: 14px;
+}
