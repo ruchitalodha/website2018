@@ -14,7 +14,6 @@ body {
     font-family: Montserrat;
 }
 
-
 .block{ 
     position: absolute;
     top: 0;
@@ -44,7 +43,9 @@ body {
 }
 
 .text{
-	padding-right: 14px;
+	position: absolute;
+    bottom: 2px;
+	padding-left: 14px;
 }
 
 .profile {
@@ -230,24 +231,18 @@ body {
 }
 .profile .box.open i {
   left: 60px;
+  color: black;
 }
-.profile .box.open i:nth-of-type(1) {
-  transform: rotate(-90deg) translateX(120px) rotate(90deg);
-  transition-delay: 0s;
-}
-.profile .box.open i:nth-of-type(2) {
+
+.profile .box.open a:nth-of-type(1) i {
   transform: rotate(-45deg) translateX(120px) rotate(45deg);
   transition-delay: 0.1s;
 }
-.profile .box.open i:nth-of-type(3) {
+.profile .box.open a:nth-of-type(2) i {
   transform: rotate(0deg) translateX(120px) rotate(0deg);
   transition-delay: 0.2s;
 }
-.profile .box.open i:nth-of-type(4) {
+.profile .box.open a:nth-of-type(3) i{
   transform: rotate(45deg) translateX(120px) rotate(-45deg);
   transition-delay: 0.3s;
-}
-.profile .box.open i:nth-of-type(5) {
-  transform: rotate(90deg) translateX(120px) rotate(-90deg);
-  transition-delay: 0.4s;
 }
